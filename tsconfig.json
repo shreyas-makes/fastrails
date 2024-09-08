@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "outDir": "app/frontend/dist",
+    "rootDir": "app/frontend",
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "module": "esnext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "target": "es6",
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["app/frontend/*"]
+    },
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true
+  },
+  "include": ["app/frontend/**/*.ts", "app/frontend/**/*.tsx"],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
