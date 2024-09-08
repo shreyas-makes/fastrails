@@ -127,11 +127,6 @@ Example Flow:
 - AI now has a cumulative understanding of the project's progress
 - You can jump right into coding, with the AI aware of your project's context
 
-
-## Contributing
-
-When contributing to this project, please ensure that you update the relevant documentation in the `.ai` directory along with your code changes. This helps maintain an up-to-date knowledge base for all team members.
-
 ## Customizing the Project Name and Git Repository
 
 To change the project name from 'FastRails' to your desired name and set up your own Git repository, follow these steps:
@@ -187,3 +182,6 @@ To change the project name from 'FastRails' to your desired name and set up your
 
 Remember to commit your changes after renaming the project and setting up the new repository.
 
+## Contributing
+
+When contributing to this project, please ensure that you update the relevant documentation in the `.ai` directory along with your code changes. This helps maintain an up-to-date knowledge base for all team members.
