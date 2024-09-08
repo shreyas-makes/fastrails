@@ -57,6 +57,8 @@ FastRails - A Rails and React Boilerplate
 - `public/`: Static files
 - `.ai/`: Knowledge management system files
 
+This is inspired by Evil Martian's Inertia.js on Rails documentation at — https://evilmartians.com/chronicles/inertiajs-in-rails-a-new-era-of-effortless-integration
+
 ## Additional Configuration
 
 - Tailwind CSS is used for styling (see `tailwind.config.js`)
@@ -65,7 +67,7 @@ FastRails - A Rails and React Boilerplate
 
 ## Knowledge Management System
 
-This project uses a knowledge management system located in the `.ai` directory. It helps in organizing and managing project-related information and documentation.
+This project uses a knowledge management system located in the `.ai` directory. It helps in organizing and managing project-related information and documentation. This is a fork from Ziad Beyens's AI codex project — https://github.com/udecode/dotai
 
 How to use the knowledge management system:
 
