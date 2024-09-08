@@ -168,32 +168,3 @@ To change the project name from 'FastRails' to your desired name and set up your
 
 Remember to commit your changes after renaming the project and setting up the new repository.
 
-## Customizing the Project Name
-
-To change the project name from 'FastRails' to your desired name, follow these steps:
-
-1. Install the 'rename' gem:
-   ```
-   gem install rename
-   ```
-
-2. Use the 'rename' gem to change the Rails project name:
-   ```
-   rails g rename:into NewProjectName
-   ```
-   Replace 'NewProjectName' with your desired project name.
-
-3. Update the following frontend React files:
-   - `app/layout.tsx`: Update the `metadata` object
-   - `app/components/Navbar.tsx`: Change the text in the navbar link
-   - Any other components or pages that might reference the project name
-
-4. Search for 'FastRails' in the entire project and replace it with your new project name:
-   ```
-   grep -R "FastRails" .
-   ```
-   This will show you all occurrences of 'FastRails' in your project. Update these manually as needed.
-
-5. Update this README.md file to reflect your new project name and description.
-
-Remember to commit your changes after renaming the project.
