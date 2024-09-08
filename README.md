@@ -2,6 +2,23 @@
 
 FastRails - A Rails and React Boilerplate
 
+## Features
+
+- Codex: Integrated AI-powered code generation and assistance
+- Knowledge Management: Built-in system for Cursor to manage and utilize project-specific knowledge
+- Rails Backend: Robust and scalable backend powered by Ruby on Rails
+- React Frontend: Modern and responsive user interface built with React
+- JavaScript and TypeScript Support: Full support for both JavaScript and TypeScript development
+- shadcn/ui Components: Pre-built, customizable UI components for rapid development
+- Vite Integration: Fast build tool and development server
+- Tailwind CSS: Utility-first CSS framework for quick styling
+- PostgreSQL Database: Reliable and powerful relational database
+- RESTful API: Well-structured API endpoints for seamless frontend-backend communication
+- Authentication System: Secure user authentication and authorization
+- Testing Framework: Comprehensive testing setup with RSpec and Jest
+- Docker Support: Containerization for consistent development and deployment environments
+
+
 ## Prerequisites
 - Ruby (version specified in `.ruby-version` file)
 - Node.js (v14 or later recommended)
