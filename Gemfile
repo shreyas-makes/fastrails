@@ -4,6 +4,8 @@ ruby "3.3.3"
 
 gem 'rename'
 
+gem "typelizer"
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.4"
 
